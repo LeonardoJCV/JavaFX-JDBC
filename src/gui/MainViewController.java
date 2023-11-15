@@ -51,9 +51,9 @@ public class MainViewController implements Initializable{
 	}
 	
 	//Método para criação e nova cena constando a menuBar original da tela principal
-	private synchronized <T> void loadView(String absolutName, Consumer<T>initializingAction) {
+	private synchronized <T> void loadView(String absoluteName, Consumer<T>initializingAction) {
 		try {
-			FXMLLoader loader = new FXMLLoader(getClass().getResource(absolutName));
+			FXMLLoader loader = new FXMLLoader(getClass().getResource(absoluteName));
 			VBox newVbox = loader.load();
 			Scene mainScene = Main.getMainScene();
 			VBox mainVbox = (VBox)((ScrollPane)mainScene.getRoot()).getContent();
@@ -67,7 +67,7 @@ public class MainViewController implements Initializable{
 			initializingAction.accept(controller);
 		}
 		catch (IOException e) {
-			Alerts.showAlert("IO Exception", "Error loading view", e.getMessage(), AlertType.ERROR);
+			Alerts.showAlert("IO Exception", "Erro ao carregar a view", e.getMessage(), AlertType.ERROR);
 		}
 	}
 	
