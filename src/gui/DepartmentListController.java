@@ -101,7 +101,7 @@ public class DepartmentListController implements Initializable, DataChangeListen
 			controller.setDepartment(obj);
 			controller.setDepartmentService(new DepartmentService());
 			controller.subscribeDataChangeListener(this);
-			controller.updateFormaData();
+			controller.updateFormData();
 
 			Stage dialogStage = new Stage();
 			dialogStage.setTitle("Digite os dados do departamento");

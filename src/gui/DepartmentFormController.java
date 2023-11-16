@@ -117,7 +117,7 @@ public class DepartmentFormController implements Initializable{
 		Constraints.setTextFieldMaxLength(txtName, 30);
 	}
 	
-	public void updateFormaData() {
+	public void updateFormData() {
 		if (entity == null) {
 			throw new IllegalStateException("'Entity' está nula");
 		}
