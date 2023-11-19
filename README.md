@@ -8,6 +8,11 @@ Design de database, design de telas utilizando SceneBuilder e compilação para 
 - JavaFX <img align="center" height="30" width="40" src="https://matruskan.files.wordpress.com/2013/08/javafx_logo_color_1r.jpg" /> 
 - MySQL <img align="center" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-plain.svg" />
 - SceneBuilder <img align="center" height="30" width="40" src="https://i0.wp.com/gluonhq.com/wp-content/uploads/2015/02/SceneBuilderLogo.png?fit=781%2C781&ssl=1">
+## Utilização do projeto:
+## Departmento
+- <img height="300" width="400" src="gif1.gif">
+## Vendedor
+- <img height="300" width="400" src="gif2.gif">
 ## Autor
 Leonardo José Clemente Vieira
 ##
